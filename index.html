@@ -1,72 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="../dados/serpente/css/reset.css">
-    <link rel="stylesheet" href="../dados/serpente/css/estilo.css">
-
-    <title>Mini Porfólio-Joao Paulo Neves</title>
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9256129f72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../src/img/novafoto.jpg">
+    <title>Mini-projeto-portfolio</title>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-    
-    <main class="cartao">
-        <div class="minhas-informacoes">
-            <img src="./IMG_20221012_112838.jpg" alt="foto de perfil ">
-            <h1 classs="nome">Joao Paulo Neves</h1>
-            <h2 class="cargo">desenvolvedor WEB</h2>
+    <!--essa clase do cartao demonstra a parte do cartao todo que contem os conteudos-->
+     <main class="cartao">
 
-        </div>
+      <!--essa clase minhas-informacoes mostra a informação do cartao tipo o perfil-->
+       <div class="minhas-informacoes">
 
-        <div class="conteudo">
-            <ul class="abas">
-                 <li class="aba selecionado" id="sobre-min">
-                   <img src="./Progamador.gif" alt="icone de sobre min">
-                 </li>
-                 <li class="aba" id="minhas-redes">
-                   <img src="./diamante.gif" alt="icone de rede sociais">
-                 </li>
-            </ul>
-            <div class="informacoes-abas">
-                    <div class="informacao selecionado">
-                        <h3 class="sub-titulo">Sobre
-                        </h3>
+        <img src="./img/perfil.jpg" alt="foto-de-perfil">
+         <h1 class="nome">JoaoPaulo Neves</h1>  
+         <h2 class="cargo">Desenvolvedor frontend</h2>    
+       </div>
+        
+       <!--conteudo da aba-->
+       <div class="conteudo"> 
 
-                        <div class="descricao">
-                            <p>OI! meu nome é Joao Paulo Neves ,seja bem vindo(a)!
-                            </p> 
-<br><br>
-                            <p>eu sou uma pessoa que é muinto apaixonado pela progamaçao embora que eu esteja começando a usar <span>HTML, CSS, e JS</span>  eu me sinto bem em fazer um site para iniciar um progeto e começar essa vida de desenvolvedor.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="informacao" id="">
-                        <h3 class="sub-titulo">Minhas redes</h3>
-                        
-                        <div class="redes-sociais">
-                            <li>
-                                <a href="https://www.facebook.com
-                                         " target="_blank" class="corriculo">Curricolo</a>
-                            </li>
-                            <li>
-                                <a href="htttps://www.likedin.com.br" terget="_blank" class="Linkedin">Linkedin</a>
-                            </li>
-                            <li>
-                                <a href="https://www.github.com.br" target="_blank" class="github" >github</a>
-                            </li>
-                        </div>
-                        </ul>
-                    </div>
-                    </div>
+        <!--opçao de escolher as abas de sobre mim e redes sociais-->
+        <ul class="abas">
+               <li class="aba selecionado" id="sobre-mim">
+                <img src="./img/gifcomputador.gif" alt="icone de sobre mim">
+               </li>
+               <li class="aba" id="minhas-redes">
+                <img src="./img/Diamante.gif" alt="icone de redes sociais">
+               </li>
+        </ul>
+          <!--aqui mostra infromção das abas escolhidas-->  
+        <div class="informacoes-abas">
+              <div class="informacao selecionado" id="informacao-sobre-mim">
+                <h3 class="sub-titulo">Sobre</h3>
+                <div class="descricao">
+                 <p>Oi! Meu nome é João Paulo Neves, seja bem vindo(a)!</p>
+
+                 <p>
+                  Sou uma pessoa apaixonada pela progamaçao, embora eu esteja começando a usa-la,(<span>HTML, CSS, e JS</span>) me sinto bem em fazer um site para iniciar um projeto e começar essa vida de Desenvolvedor WEB E PHP.
+                 </p>
+                </div>
+              </div>
+
+            <div class="informacao" id="informacao-minhas-redes">
+              <!--nessa parte das minhas redes vou ter que adicionar as logo das redes sociais-->
+              <h3 class="sub-titulo">
+                Minhas Redes
+              </h3>
+
+              <ul class="redes-sociais">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100018368735532" class="facebook"> <i class="fa-brands fa-facebook"></i></a>
+                </li>
+
+
+                <li >
+                  <a href="https://www.instagram.com/joaopauloneves16/" class="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+
+                <li >
+                  <a href="https://github.com/JOAO11092005" class="Github"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
             </div>
+
         </div>
-    </main>
+
+       </div>
+     </main>
     <script src="./js/index.js"></script>
 </body>
 </html>
