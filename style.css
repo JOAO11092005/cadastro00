@@ -5,7 +5,8 @@ body{
 
 
     border-radius: 20px;
-    background-image: url('./Radar_\ lucro\ do\ Itaú\ \(ITUB4\)\ salta\ no\ 4T22\,\ ações\ da\ Cogna\ \(COGN3\)\ devem\ subir\ e\ governo\ quer\ que___.jfif');
+    background-image: url('./Kaufsuch2.jpg');
+    
     /* background-color: pink; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,6 +70,7 @@ select:hover{
 }
 input{
     padding: 20px;
+    
 }
 input:hover{
     border-color: blue;
@@ -77,19 +79,22 @@ input::selection{
     border-color: blue;
 }
 main section .nome{
-    border-radius: 5px;
+    border-radius: 20px;
     padding-right: 100px;
     margin-top: 5px;
+    border-color: rgb(255, 255, 255);
 }
 main section .email{
    padding-right: 100px;
    margin-top: 5px;
-   border-radius: 5px;
+   border-radius: 20px;
+   border-color: rgb(255, 255, 255);
 }
 main section .senha{
     margin-top: 5px;
     padding-right: 100px;
-    border-radius: 5px;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
 }
 main section .data-nacimento{
   
@@ -109,10 +114,13 @@ main section .genero{
 main section .botao{
     background-color: orange;
     margin-top: 10px;
-    padding: 10px;
+    padding: 15px;
+    padding-left: 50px;
+   padding-right: 50px;
     border-radius: 5px;
     margin-bottom: 50px;
     border-color: aliceblue;
+    
 }
 /* section{
     border-radius: 20px;
@@ -123,5 +131,5 @@ main section .botao{
     margin-top: 50px;
 } */
 section{
-   margin-right: 70px;
-} 
+   /* margin-right: 70px; */
+}
