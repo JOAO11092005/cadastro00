@@ -101,10 +101,22 @@ main section .data-nacimento{
     padding: 20px;
     
 }
+main section .dia{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+main section .mes{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
 main section .data{
     background-color: rgb(255, 255, 255);
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 20px;
 
 }
 main section .genero{
