@@ -102,8 +102,8 @@ main section .data-nacimento{
     
 }
 main section .data{
-   
-    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
     border-radius: 5px;
 
 }
@@ -133,3 +133,4 @@ main section .botao{
 section{
    /* margin-right: 70px; */
 }
+
