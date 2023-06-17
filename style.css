@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(83, 79, 79);
+    border-radius: 10px;
+}
+.bg{
+    padding: 10px;
+    margin: 50px;
+    background-image: url('./Heavenly\ Strike.jpeg');
+}
+.bg-imagen{
+    margin: 0px;
+    width: 1920px;
+    height: 1080px;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+} 
+  
+.bg-position{
+    background-position: center;
+    height: 1080px;
+}.bg-fixed{
+    background-attachment: fixed;
+    height: 800px;
+}      
+.bg-repeat{
+   /* ? */
+}   
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}                              
+section{
+    border-style: solid;
+    text-align: center;
+
+}
+.nome-email{
+    padding: 10px;
+    margin: 50px;
+}
+input{
+    padding: 5px;
+}
+main section .nome{
+    border-radius: 5px;
+    padding-right: 100px;
+}
+main section .email{
+   padding-right: 100px;
+   margin-top: 5px;
+   border-radius: 5px;
+}
+main section .senha{
+    margin-top: 5px;
+    padding-right: 100px;
+    border-radius: 5px;
+}
+main section .data-nacimento{
+  
+    padding: 10px;
+    
+}
+main section .data{
+   
+    padding: 5px;
+    border-radius: 5px;
+
+}
+main section .genero{
+    
+    padding: 20px;
+}
+main section .botao{
+    background-color: orange;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+section{
+    border-radius: 20px;
+    background-image: url('./Itaú\ \(ITUB4\)_\ banco\ lança\ vertical\ de\ vendas\ online.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
