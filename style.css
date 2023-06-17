@@ -1,6 +1,18 @@
 body{
-    background-color: rgb(83, 79, 79);
-    border-radius: 10px;
+    /* background-color: rgb(83, 79, 79);
+    border-radius: 10px; */
+
+
+
+    border-radius: 20px;
+    background-image: url('./Itaú\ \(ITUB4\)_\ banco\ lança\ vertical\ de\ vendas\ online.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(2, 2, 2);
+    
 }
 .bg{
     padding: 10px;
@@ -31,8 +43,8 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }                              
 section{
-    border-style: solid;
-    text-align: center;
+    /* border-style: solid;
+    text-align: center; */
 
 }
 .nome-email{
@@ -45,6 +57,7 @@ input{
 main section .nome{
     border-radius: 5px;
     padding-right: 100px;
+    margin-top: 5px;
 }
 main section .email{
    padding-right: 100px;
@@ -77,12 +90,13 @@ main section .botao{
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 50px;
+    border-color: aliceblue;
 }
-section{
+/* section{
     border-radius: 20px;
     background-image: url('./Itaú\ \(ITUB4\)_\ banco\ lança\ vertical\ de\ vendas\ online.jfif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: 50px;
-}
+} */
