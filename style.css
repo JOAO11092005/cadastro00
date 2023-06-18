@@ -18,11 +18,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    margin-top: 150px;
-    color: rgb(255, 255, 255);
-    font-family:'Playfair', serif;
-    background-attachment: fixed;
+   
    
     
 }
@@ -66,6 +62,11 @@ main{
 }                              
 section{
    background-attachment: fixed;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family:'Playfair', serif;
+    background-attachment: fixed;
 
 }
 .cadastra-se{
