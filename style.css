@@ -7,19 +7,27 @@ body{
     border-radius: 20px;
     background-image: url('./Kaufsuch2.jpg');
     
-    /* background-color: pink; */
+    /* background-color:  #ffa500; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
     margin-top: 150px;
     color: rgb(255, 255, 255);
-    font-family:'Playfair', serif;;
+    font-family:'Playfair', serif;
+    background-attachment: fixed;
+
     
 }
 .itau{
     width: 150px;
     margin-right: 200px;
+    background-attachment: fixed;
+    
+}
+.mulher{
+    background-color: blue;
+    margin-top: 300px;
 }
 .bg{
     padding: 10px;
@@ -72,10 +80,18 @@ input{
     padding: 20px;
     
 }
-input:hover{
+input::{
     border-color: blue;
 }
-input::selection{
+input:hover{
+   border-color: blue;
+    background-color: rgb(245, 250, 248);
+}
+::-webkit-scrollbar-button{
+    background-color: red;
+}
+input:active{
+    background-color: rgb(215, 215, 223);
     border-color: blue;
 }
 main section .nome{
@@ -146,4 +162,6 @@ main section .botao{
 section{
    /* margin-right: 70px; */
 }
-
+/* .botao{
+    background-color: rgb(128, 99, 47);
+} */
