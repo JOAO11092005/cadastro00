@@ -9,7 +9,7 @@ body{
     /* background-color: rgb(83, 79, 79);
     border-radius: 10px; */
 
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     border-radius: 20px;
     background-image: url('./Kaufsuch3.jpg');
@@ -65,7 +65,7 @@ section{
     text-align: center;
     margin-top: 50px;
     color: rgb(255, 255, 255);
-    font-family:'Playfair', serif;
+    /* font-family:'Playfair', serif; */
     background-attachment: fixed;
 
 }
