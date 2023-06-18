@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+html, body {
+    overflow: hidden;
+   }
 body{
     /* background-color: rgb(83, 79, 79);
     border-radius: 10px; */
@@ -9,7 +12,7 @@ body{
 
 
     border-radius: 20px;
-    background-image: url('./Kaufsuch2.jpg');
+    background-image: url('./Kaufsuch3.jpg');
     
     /* background-color:  #ffa500; */
     background-repeat: no-repeat;
@@ -20,7 +23,7 @@ body{
     color: rgb(255, 255, 255);
     font-family:'Playfair', serif;
     background-attachment: fixed;
-
+   
     
 }
 .itau{
