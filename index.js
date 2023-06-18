@@ -7,16 +7,7 @@ form.addEventListener('submit', (e) => {
   const nome = document.querySelector('#nome').value.trim();
   const email = document.querySelector('#email').value.trim();
   const senha = document.querySelector('#senha').value.trim();
-
-  if (nome && email && senha) {
-    alert('Cadastro realizado com sucesso!') ;
-  } else if(senha){
-   alert('Cadastro incompleto. Por favor, preencha todos os campos.');
-  }
-});
-document.querySelector('input[type="submit"]').addEventListener('click', function() {
-  location.reload();
-});
+  // const Confirme-Senha = document.querySelector('#Confirme-Senha').value.trim();
 
 
 
@@ -30,6 +21,42 @@ document.querySelector('input[type="submit"]').addEventListener('click', functio
 
 
 //   Exibe uma mensagem de cadastro realizado
-//   alert('Cadastro realizado com sucesso!!');
-// });
+  alert('Cadastro realizado com sucesso!!');
+});
+document.querySelector('input[type="submit"]').addEventListener('click', function() {
+  location.reload();
+});
 
+// function validarSenha(event) {
+//   event.preventDefault();
+
+//   const senha = document.getElementById('senha').value;
+//   const confirmeSenha = document.getElementById('confirmeSenha').value;
+// }
+// function validarSenha(event) {
+//   event.preventDefault();
+
+//   const senha = document.getElementById('senha').value;
+//   const confirmarSenha = document.getElementById('confirmarSenha').value;
+
+//   if(senha == confirmarSenha) {
+//       alert('Senha nao se coincidem')
+//   } else {
+//       alert('senha esta igual')
+//   }
+// }
+// function validarSenha(event) {
+//   event.preventDefault();
+
+//   const senha = document.getElementById('senha').value;
+//   const confirmarSenha = document.getElementById('confirmarSenha').value;
+//   const mensagemErro = document.getElementById('mensagemErro');
+
+//   if(senha === confirmarSenha) {
+//       mensagemErro.classList.add('esconder');
+//       // senhas coincidem
+//   } else {
+//       mensagemErro.classList.remove('esconder');
+//       // senhas não coincidem
+//   }
+// }
