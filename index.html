@@ -17,22 +17,25 @@
                 <h2 class="cadastra-se" >Cadastra-se</h2>
                 <p>È facil e rapido e seguro</p>
                 <div class="nome-email" id="validarCampos">
-                    <input class="nome" type="text" placeholder="Nome"  id="nome" required>
+                    <input class="nome" type="text" placeholder="Nome"  id="nome" required oninvalid="this.setCustomValidity('Digite o seu Nome')"oninput="setCustomValidity('')">
                     <br>
-                    <input class="nome" type="text" placeholder="Sobrenome" id="nome" required>
+                    <input class="nome" type="text" placeholder="Sobrenome" id="nome" required oninvalid="this.setCustomValidity('Sobrenome')"oninput="setCustomValidity('')">
                     <br>
-                    <input class="email" type="text" placeholder="Email ou Telefone" id="email" required>
+                    <input class="email" type="text" placeholder="Email ou Telefone" id="email" required oninvalid="this.setCustomValidity('Digite o seu Email')"oninput="setCustomValidity('')">
                     <br>
     
     
                     
+                   
+
+
     
     
     
-    
-                    <input class="senha" type="password" placeholder="Crie a sua Senha" id="senha" required>
+                    <input class="senha" type="password" placeholder="Crie a sua Senha" id="senha" required oninvalid="this.setCustomValidity('Crie a sua senha')"oninput="setCustomValidity('')">
                     <br>
-                    <input class="senha" type="password" placeholder="Confirme a sua Senha" id="senha" required>
+                    <p id="mensagemErro" class="esconder">As senhas não coincidem.</p>
+                    <input class="senha" type="password" placeholder="Confirme a sua Senha" id="Confirme-Senha" required oninvalid="this.setCustomValidity('Cimfirme a senha')"oninput="setCustomValidity('')">
                 </div>
                
     
@@ -96,6 +99,7 @@
     
     
                 <input class="botao" type="submit" value="Cadastra-se" id="btn-submit">
+                <p id="message"></p>
     
                 <!-- <button type="submit" id="btn-submit">Enviar</button> -->
             </form>
