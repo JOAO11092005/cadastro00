@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     /* background-color: rgb(83, 79, 79);
     border-radius: 10px; */
@@ -58,9 +62,7 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }                              
 section{
-    /* border-style: solid;
-    text-align: center; */
-   
+   background-attachment: fixed;
 
 }
 .cadastra-se{
