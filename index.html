@@ -11,93 +11,99 @@
     </div>
     
         <section>
+            <form onsubmit="validarCampos()">
+                <a href="https://itau.com.br/"><img class="itau" src="./itau-removebg.png" alt=""></a>
             
-            <a href="https://itau.com.br/"><img class="itau" src="./itau-removebg.png" alt=""></a>
-            
-            <h2 class="cadastra-se">Cadastra-se</h2>
-            <p>È facil e rapido e seguro</p>
-            <div class="nome-email">
-                <input class="nome" type="text" placeholder="Nome">
-                <br>
-                <input class="nome" type="text" placeholder="Sobrenome">
-                <br>
-                <input class="email" type="text" placeholder="Email ou Telefone">
-                <br>
+                <h2 class="cadastra-se" >Cadastra-se</h2>
+                <p>È facil e rapido e seguro</p>
+                <div class="nome-email" id="validarCampos">
+                    <input class="nome" type="text" placeholder="Nome"  id="nome" required>
+                    <br>
+                    <input class="nome" type="text" placeholder="Sobrenome" id="nome" required>
+                    <br>
+                    <input class="email" type="text" placeholder="Email ou Telefone" id="email" required>
+                    <br>
+    
+    
+                    
+    
+    
+    
+    
+                    <input class="senha" type="password" placeholder="Crie a sua Senha" id="senha" required>
+                    <br>
+                    <input class="senha" type="password" placeholder="Confirme a sua Senha" id="senha" required>
+                </div>
+               
+    
+                <div class="data-nacimento">
+                    <h2>Data de nacimento</h2>
+                    <select  name="" id="data" class="dia">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+    
+                    <select name="" id="data" class="mes">
+                        <option value="">Jan</option>
+                        <option value="">Fev</option>
+                        <option value="">Mar</option>
+                        <option value="">Abr</option>
+                        <option value="">Mai</option>
+                        <option value="">Jun</option>
+                        <option value="">Jul</option>
+                        <option value="">Ago</option>
+                        <option value="">Set</option>
+                        <option value="">Out</option>
+                        <option value="">Nov</option>
+                        <option value="">Dez</option>
+                    </select>
+    
+                    <select name="" id="data" class="data">
+                        <option value="">2005</option>
+                        <option value="">2004</option>
+                        <option value="">2003</option>
+                        <option value="">2002</option>
+                        <option value="">2001</option>
+                        <option value="">2000</option>
+                        <option value="">1999</option>
+                        <option value="">1998</option>
+                        <option value="">1997</option>
+                        <option value="">1996</option>
+                    </select>
+                </div>
+    
+                <div class="genero" id="genero" aria-required="true">
+                    <h2>Genero</h2>
+                    <label for="Mas">Masculino</label>
+                    <input id="Mas" type="radio" name="genero" checked>
+    
+    
+                    <label for="Fe">Feminino</label>
+                    <input id="Fe" type="radio" name="genero">
+    
+                    
+                    <!-- <label for="N">Não Informar</label>
+                    <input id="N" type="radio" name="genero"> -->
+                </div>
+    
+    
+                <input class="botao" type="submit" value="Cadastra-se" id="btn-submit">
+    
+                <!-- <button type="submit" id="btn-submit">Enviar</button> -->
+            </form>
+    
+                <!-- <a class="botao">Cadastra-se</a> -->
+            </form>
 
-
-                
-
-
-
-
-                <input class="senha" type="password" placeholder="Crie a sua Senha">
-                <br>
-                <input class="senha" type="password" placeholder="Confirme a sua Senha">
-            </div>
            
-
-            <div class="data-nacimento">
-                <h2>Data de nacimento</h2>
-                <select  name="" id="data" class="dia">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                    <option value="">9</option>
-                    <option value="">10</option>
-                </select>
-
-                <select name="" id="data" class="mes">
-                    <option value="">Jan</option>
-                    <option value="">Fev</option>
-                    <option value="">Mar</option>
-                    <option value="">Abr</option>
-                    <option value="">Mai</option>
-                    <option value="">Jun</option>
-                    <option value="">Jul</option>
-                    <option value="">Ago</option>
-                    <option value="">Set</option>
-                    <option value="">Out</option>
-                    <option value="">Nov</option>
-                    <option value="">Dez</option>
-                </select>
-
-                <select name="" id="data" class="data">
-                    <option value="">2005</option>
-                    <option value="">2004</option>
-                    <option value="">2003</option>
-                    <option value="">2002</option>
-                    <option value="">2001</option>
-                    <option value="">2000</option>
-                    <option value="">1999</option>
-                    <option value="">1998</option>
-                    <option value="">1997</option>
-                    <option value="">1996</option>
-                </select>
-            </div>
-
-            <div class="genero">
-                <h2>Genero</h2>
-                <label for="Mas">Masculino</label>
-                <input id="Mas" type="radio" name="genero">
-
-
-                <label for="Fe">Feminino</label>
-                <input id="Fe" type="radio" name="genero">
-
-                
-                <!-- <label for="N">Não Informar</label>
-                <input id="N" type="radio" name="genero"> -->
-            </div>
-
-
-            <input class="botao" type="submit" value="Cadastra-se">
-
-            <!-- <a class="botao">Cadastra-se</a> -->
         </section>
             
     </main> 
