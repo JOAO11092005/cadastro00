@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+/* html, body {
+    overflow: hidden;
+   } */
 body{
     /* background-color: rgb(83, 79, 79);
     border-radius: 10px; */
@@ -60,17 +63,18 @@ main{
 section{
    background-attachment: fixed;
     text-align: center;
-    margin-top: 68px;
+    margin-top:10px;
     color: rgb(255, 255, 255);
     /* font-family:'Playfair', serif; */
     background-attachment: fixed;
+   
 
 }
 .cadastra-se{
    margin-right: 120px;
 }
 p{
-    margin-right: 130px;
+    margin-right: 90px;
 }
 select:hover{
     padding: 20px;
