@@ -14,6 +14,9 @@ form.addEventListener('submit', (e) => {
    alert('Cadastro incompleto. Por favor, preencha todos os campos.');
   }
 });
+document.querySelector('input[type="submit"]').addEventListener('click', function() {
+  location.reload();
+});
 
 
 
