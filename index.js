@@ -1,5 +1,5 @@
 window.onload = function() {
-  alert("Caro usuário Gostaríamos de informar que o site em que você está acessando é um site de teste em desenvolvimento. Ele foi criado com o objetivo de testar e avaliar todas as funcionalidades do website .");
+  alert("Caro usuário Gostaríamos de informar que o site em que você está acessando é um site de teste em desenvolvimento. Ele foi criado com o objetivo de testar e avaliar todas as funcionalidades do website .@JoaoPaulo-Full-stack");
 }
 
 
