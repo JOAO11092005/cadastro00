@@ -1,3 +1,8 @@
+window.onload = function() {
+  alert("Caro usuário Gostaríamos de informar que o site em que você está acessando é um site de teste em desenvolvimento. Ele foi criado com o objetivo de testar e avaliar todas as funcionalidades do website .");
+}
+
+
 const form = document.querySelector('form');
 const message = document.querySelector('#message');
 
@@ -22,10 +27,11 @@ form.addEventListener('submit', (e) => {
 
 //   Exibe uma mensagem de cadastro realizado
   alert('Cadastro realizado com sucesso!!');
+  location.reload()
 });
-document.querySelector('input[type="submit"]').addEventListener('click', function() {
-  location.reload();
-});
+// document.querySelector('input[type="submit"]').addEventListener('click', function() {
+//   location.reload();
+// }); editado hj
 
 // function validarSenha(event) {
 //   event.preventDefault();
