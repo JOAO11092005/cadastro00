@@ -12,7 +12,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     border-radius: 20px;
-    background-image: url('./Kaufsuch3.jpg');
+    background-image: url('./novofundo.jpeg');
     
     /* background-color:  #ffa500; */
     background-repeat: no-repeat;
@@ -23,9 +23,11 @@ body{
     
 }
 .itau{
-    width: 150px;
-    margin-right: 200px;
+    width: 120px;
+    margin-right: 150px;
     background-attachment: fixed;
+    border-radius: 20px;
+
     
 }
 .mulher{
@@ -172,3 +174,8 @@ section{
 /* .botao{
     background-color: rgb(128, 99, 47);
 } */
+
+.idade{
+    border-radius: 20px;
+    width: 50px;
+}
